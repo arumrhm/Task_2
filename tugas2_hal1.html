@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Produk</title>
+        <style>
+            body {
+                background-color: #636456;
+               
+            }
+            h3{
+                color:  #baaf9e;
+            }
+            h1{
+                color: #064c72;
+                font-size: 50px;
+            }
+            .box{
+            width: 510px;
+                border: 1px solid;
+            color: #ecae7d;
+            }
+        </style>
+    </head>
+    <body>
+       <center>
+        <h1>Ice Cream House</h1>
+        <div class="desain-layout">
+            <div class="box">
+                <center>
+                    <img width="500" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzVOdYi2JDLrTyhwQkU6oACfyTmWxhPd2bPw&usqp=CAU"alt="">
+                </center>
+                <h3 >
+                    Aneka Ice Cream
+                </h3>
+                
+            </div>
+        </div>
+        <p>pilih menu :</p>
+        <form action="detail-produk.html" method="get">
+        <label for="menu">Menu :</label>
+        <select name="menu" id="menu">
+            <option value="Vanilla">Ice Cream Vanilla</option>
+            <option value="Strawberry">Ice Cream Strawberry</option>
+            <option value="Coklat">Ice Cream Coklat</option>
+            <option value="Taro">Ice Cream Taro</option>
+          </select> <br><br>
+        <label for="jumlah-ice cream">Jumlah Ice Cream :</label>
+        <input type="number" name="jumlah-barang">
+        <button type="submit">Pesan</button>
+    </form>
+       </center>
+    </body>
+</html>
